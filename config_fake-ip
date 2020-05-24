@@ -2,27 +2,27 @@
 
 ;设置规则标志位
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/Love4Taylor/subconverter-rule-clash/master/rules/Unbreak
-surge_ruleset=🚫运营商劫持,https://raw.githubusercontent.com/Love4Taylor/subconverter-rule-clash/master/rules/Hijacking
-surge_ruleset=🌍国际流媒体,https://raw.githubusercontent.com/Love4Taylor/subconverter-rule-clash/master/rules/GlobalMedia
-surge_ruleset=🌍大陆流媒体港澳台资源,https://raw.githubusercontent.com/Love4Taylor/subconverter-rule-clash/master/rules/HKMTMedia
-surge_ruleset=🔰节点选择,https://raw.githubusercontent.com/Love4Taylor/subconverter-rule-clash/master/rules/Global
+surge_ruleset=🚫 运营商劫持,https://raw.githubusercontent.com/Love4Taylor/subconverter-rule-clash/master/rules/Hijacking
+surge_ruleset=🌍 国际流媒体,https://raw.githubusercontent.com/Love4Taylor/subconverter-rule-clash/master/rules/GlobalMedia
+surge_ruleset=🌍 大陆流媒体港澳台资源,https://raw.githubusercontent.com/Love4Taylor/subconverter-rule-clash/master/rules/HKMTMedia
+surge_ruleset=🔰 节点选择,https://raw.githubusercontent.com/Love4Taylor/subconverter-rule-clash/master/rules/Global
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/Love4Taylor/subconverter-rule-clash/master/rules/China
-surge_ruleset=🍎苹果服务,https://raw.githubusercontent.com/Love4Taylor/subconverter-rule-clash/master/rules/Apple
+surge_ruleset=🍎 苹果服务,https://raw.githubusercontent.com/Love4Taylor/subconverter-rule-clash/master/rules/Apple
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/Love4Taylor/subconverter-rule-clash/master/rules/LAN
 surge_ruleset=DIRECT,[]GEOIP,CN
-surge_ruleset=🐟漏网之鱼,[]FINAL
+surge_ruleset=🐟 漏网之鱼,[]FINAL
 ;设置规则标志位
 
 ;设置分组标志位
-custom_proxy_group=♻️高可用监控`fallback`.*`http://cp.cloudflare.com/generate_204`300
-custom_proxy_group=🔰节点选择`select`[]♻️高可用监控`.*
-custom_proxy_group=🌍国际流媒体`select`[]🔰节点选择`.*
-custom_proxy_group=🌍大陆流媒体港澳台资源`select`[]🎯直连`[]🔰节点选择
-custom_proxy_group=🍎苹果服务`select`[]🎯直连`[]🔰节点选择
-custom_proxy_group=🚫运营商劫持`select`[]🎯拦截`[]🎯直连
-custom_proxy_group=🐟漏网之鱼`select`[]🔰节点选择`[]🎯直连
-custom_proxy_group=🎯直连`select`[]DIRECT
-custom_proxy_group=🎯拦截`select`[]REJECT
+custom_proxy_group=♻️ 高可用监控`fallback`.*`http://cp.cloudflare.com/generate_204`300
+custom_proxy_group=🔰 节点选择`select`[]♻️ 高可用监控`.*
+custom_proxy_group=🌍 国际流媒体`select`[]🔰 节点选择`.*
+custom_proxy_group=🌍 大陆流媒体港澳台资源`select`[]🎯 直连`[]🔰 节点选择
+custom_proxy_group=🍎 苹果服务`select`[]🎯 直连`[]🔰 节点选择
+custom_proxy_group=🚫 运营商劫持`select`[]🛑 拦截`[]🎯 直连
+custom_proxy_group=🐟 漏网之鱼`select`[]🔰 节点选择`[]🎯 直连
+custom_proxy_group=🎯 直连`select`[]DIRECT
+custom_proxy_group=🛑 拦截`select`[]REJECT
 ;设置分组标志位
 
 
