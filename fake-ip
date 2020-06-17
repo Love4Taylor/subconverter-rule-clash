@@ -19,6 +19,12 @@ dns:
   fake-ip-filter:
     - '*.lan'
     - '*.local'
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - lens.l.google.com
+    - stun.l.google.com
+    - '*.n.n.srv.nintendo.net'
     - localhost.ptlogin2.qq.com
     - dns.msftncsi.com
     - www.msftncsi.com
