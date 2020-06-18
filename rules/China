@@ -153,6 +153,9 @@ DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN,file-igamecj.akamaized.net
+IP-CIDR,182.254.116.0/24
+IP-CIDR,203.205.252.0/23
+IP-CIDR,203.205.254.0/23
 # > YYeTs
 # USER-AGENT,YYeTs*
 DOMAIN-SUFFIX,jstucdn.com
