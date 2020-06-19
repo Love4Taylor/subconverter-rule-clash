@@ -23,7 +23,6 @@ custom_proxy_group=🍎 苹果服务`select`[]🎯 直连`[]🔰 节点选择
 custom_proxy_group=🐧 微信 FCM`select`[]🔰 节点选择`[]🎯 直连
 custom_proxy_group=🐟 漏网之鱼`select`[]🔰 节点选择`[]🎯 直连
 custom_proxy_group=🎯 直连`select`[]DIRECT
-custom_proxy_group=🛑 拦截`select`[]REJECT
 ;设置分组标志位
 
 
